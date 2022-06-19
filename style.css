@@ -39,15 +39,71 @@ header{
     color: #601cfc;
 }
 
-section{
+section
+{
     padding: 100px 200px;
 }
 
-.main {
+.main 
+{
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/last.png) no-repeat;
+    background: url(images/final.png) no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.main h2
+{
+    color: #1f1f1f;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span
+{
+    display: inline-block;
+    margin-top: 10px;
+    color:#3a6cf4;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.main h3{
+    color: #1f1f1f;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn
+{
+    color: #f0f0f0;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius:15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease; /*to have a smooth effect while hovering*/
+}
+
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1,1.1); /*as kabarto 10% , when i put one value it means its for the x and y*/
+}
+
+.social-icons a
+{
+    color: #1f1f1f;
+    font-size:1.7em;
+    padding-right: 30px;
+
 }
