@@ -131,7 +131,7 @@ section
     border-radius: 10px;
     padding: 25px;
     margin:15px;
-    transform: 0.7s ease; /*for a smooth effect*/
+    transition: 2s ease;
 }
 
 .card:hover{
