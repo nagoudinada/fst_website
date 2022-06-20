@@ -161,7 +161,7 @@ section
 }
 
 .projects .content{
-    margin-top: 60px;
+    margin-top: 30px; 
 }
 
 .projects-card
@@ -212,4 +212,41 @@ section
 
 .more-details:hover{
     color: #601cfc;
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3{
+    color: #1f1f1f;
+
+}
+
+.contact .info p{
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.footer{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .social-icons a{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 12px 0 0; /*It works like a clock top-right-bottom-left*/
+}
+
+.footer .footer-title{
+    font-size: 1.2em; 
+}
+
+.footer .footer-title span{
+    font-weight: 600;
+    color: #0a49f6;
 }
